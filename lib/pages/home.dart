@@ -1,9 +1,9 @@
-import 'package:altx/models/tweet.dart';
-import 'package:altx/pages/create.dart';
-import 'package:altx/pages/loginpage.dart';
-import 'package:altx/pages/settings.dart';
-import 'package:altx/providers/tweet_provider.dart';
-import 'package:altx/providers/user_provider.dart';
+import 'package:altx2/models/tweet.dart';
+import 'package:altx2/pages/create.dart';
+import 'package:altx2/pages/loginpage.dart';
+import 'package:altx2/pages/settings.dart';
+import 'package:altx2/providers/tweet_provider.dart';
+import 'package:altx2/providers/user_provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

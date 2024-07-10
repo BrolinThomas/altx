@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "altx" "\0"
+            VALUE "FileDescription", "altx2" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "altx" "\0"
+            VALUE "InternalName", "altx2" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "altx.exe" "\0"
-            VALUE "ProductName", "altx" "\0"
+            VALUE "OriginalFilename", "altx2.exe" "\0"
+            VALUE "ProductName", "altx2" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

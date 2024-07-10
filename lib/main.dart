@@ -1,9 +1,9 @@
-import 'package:altx/firebase_options.dart';
-import 'package:altx/pages/home.dart';
-import 'package:altx/pages/loginpage.dart';
-import 'package:altx/providers/user_provider.dart';
-import 'package:altx/theme/dark_mode.dart';
-import 'package:altx/theme/light_mode.dart';
+import 'package:altx2/firebase_options.dart';
+import 'package:altx2/pages/home.dart';
+import 'package:altx2/pages/loginpage.dart';
+import 'package:altx2/providers/user_provider.dart';
+import 'package:altx2/theme/dark_mode.dart';
+import 'package:altx2/theme/light_mode.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

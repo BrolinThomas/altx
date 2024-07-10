@@ -1,4 +1,4 @@
-package com.ec.altx
+package com.ec.altx2
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,7 +1,7 @@
-import 'package:altx/components/my_button.dart';
-import 'package:altx/components/my_textfield.dart';
-import 'package:altx/pages/loginpage.dart';
-import 'package:altx/providers/user_provider.dart';
+import 'package:altx2/components/my_button.dart';
+import 'package:altx2/components/my_textfield.dart';
+import 'package:altx2/pages/loginpage.dart';
+import 'package:altx2/providers/user_provider.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

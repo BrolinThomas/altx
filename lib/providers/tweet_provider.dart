@@ -1,5 +1,5 @@
-import 'package:altx/models/tweet.dart';
-import 'package:altx/providers/user_provider.dart';
+import 'package:altx2/models/tweet.dart';
+import 'package:altx2/providers/user_provider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -17,14 +17,14 @@ final feedProvider = StreamProvider.autoDispose<List<Tweet>>((ref) {
   });
 });
 
-final tweetProvider = Provider<AltxApi>(
+final tweetProvider = Provider<altx2Api>(
   (ref) {
-    return AltxApi(ref);
+    return altx2Api(ref);
   },
 );
 
-class AltxApi {
-  AltxApi(this.ref);
+class altx2Api {
+  altx2Api(this.ref);
   final Ref ref;
 
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;

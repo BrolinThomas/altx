@@ -1,4 +1,4 @@
-import 'package:altx/providers/tweet_provider.dart';
+import 'package:altx2/providers/tweet_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

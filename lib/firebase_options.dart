@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -28,15 +25,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -51,7 +42,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBYK4dKxyPRTjhPfYG891x-hHlJGguYH1M',
-    appId: '1:702645106285:android:b5c7c0f0b75451872ff164',
+    appId: '1:702645106285:android:c5cbae41738e6f412ff164',
     messagingSenderId: '702645106285',
     projectId: 'altx-6f583',
     storageBucket: 'altx-6f583.appspot.com',
@@ -59,11 +50,38 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAT76b6M6YcQT2rfpV9wqEzDYeDLmpvRfI',
-    appId: '1:702645106285:ios:f7ecccd9bf8f341e2ff164',
+    appId: '1:702645106285:ios:14728811343140272ff164',
     messagingSenderId: '702645106285',
     projectId: 'altx-6f583',
     storageBucket: 'altx-6f583.appspot.com',
-    iosBundleId: 'com.example.altx',
+    iosBundleId: 'com.ec.altx2',
+  );
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyAcu6REpalHH9rzdn1wjDF-xs8lYXDxqUg',
+    appId: '1:702645106285:web:5bc1d5875dcae9ea2ff164',
+    messagingSenderId: '702645106285',
+    projectId: 'altx-6f583',
+    authDomain: 'altx-6f583.firebaseapp.com',
+    storageBucket: 'altx-6f583.appspot.com',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyAT76b6M6YcQT2rfpV9wqEzDYeDLmpvRfI',
+    appId: '1:702645106285:ios:14728811343140272ff164',
+    messagingSenderId: '702645106285',
+    projectId: 'altx-6f583',
+    storageBucket: 'altx-6f583.appspot.com',
+    iosBundleId: 'com.ec.altx2',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyAcu6REpalHH9rzdn1wjDF-xs8lYXDxqUg',
+    appId: '1:702645106285:web:92d2debec176852e2ff164',
+    messagingSenderId: '702645106285',
+    projectId: 'altx-6f583',
+    authDomain: 'altx-6f583.firebaseapp.com',
+    storageBucket: 'altx-6f583.appspot.com',
   );
 
 }
