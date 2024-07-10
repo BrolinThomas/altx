@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "702645106285",
+    "project_id": "altx-6f583",
+    "storage_bucket": "altx-6f583.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702645106285:android:b5c7c0f0b75451872ff164",
+        "android_client_info": {
+          "package_name": "com.ec.altx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYK4dKxyPRTjhPfYG891x-hHlJGguYH1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
